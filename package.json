@@ -1,0 +1,19 @@
+{
+  "name": "hack_western_voice_workshop",
+  "version": "1.0.0",
+  "description": "Fulfillment code for a sample voice-first application, designed for use in Functions on Firebase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zachfejes/hack_western_voice_workshop.git"
+  },
+  "author": "Zachary Fejes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zachfejes/hack_western_voice_workshop/issues"
+  },
+  "homepage": "https://github.com/zachfejes/hack_western_voice_workshop#readme"
+}
