@@ -1,0 +1,33 @@
+<speak>
+        <p>
+            <s>This time, listen and get used to the speed of my voice.</s>
+        </p>
+        
+        <prosody rate="0.7">
+            <p>
+                <s>This is the same voice with the prosody changed to speed it up.</s>
+            </p>
+        </prosody>
+
+        <prosody rate="0.3">
+            <p>
+                <s>This is the same voice with the prosody changed to slow it down.</s>
+            </p>
+        </prosody>
+
+        <prosody pitch="+4st">
+            <p>
+                <s>This is the same voice with the prosody changed to slow it down.</s>
+            </p>
+        </prosody>
+
+        <prosody pitch="-4st">
+            <p>
+                <s>This is the same voice with the prosody changed to slow it down.</s>
+            </p>
+        </prosody>
+
+        <p>
+            <s>And now my voice is back to the default speed and pitch.</s>
+        </p>
+</speak>

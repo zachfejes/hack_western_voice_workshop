@@ -1,0 +1,19 @@
+<speak>
+        <p>
+            <s>This is a single sentence in the Synthesized Speech Markup Language, and it makes a good demo.</s>
+        </p>
+</speak>
+
+
+
+<speak>
+    <prosody rate="" pitch="">
+        <p>
+            <s>Pay attention to the length of the pause after this sentence, as it marks the end of a paragraph.</s>
+        </p>
+        <p>
+            <s>Now listen for the pause after this sentence.</s>
+            <s>It's a little shorter, because it marks the end of one sentence and a start of another within the same paragraph.</s>
+        </p>
+    </prosody>
+</speak>
