@@ -1,0 +1,31 @@
+{
+  "name": "hack_western_voice_workshop",
+  "engines": {
+    "node": "8"
+  },
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fulfillment code for a sample voice-first application, designed for use in Functions on Firebase",
+  "main": "index.js",
+  "scripts": {
+    "start": "firebase serve --only functions:dialogflowFirebaseFulfillment",
+    "deploy": "firebase deploy --only functions:dialogflowFirebaseFulfillment"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zachfejes/hack_western_voice_workshop.git"
+  },
+  "author": "Zachary Fejes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zachfejes/hack_western_voice_workshop/issues"
+  },
+  "homepage": "https://github.com/zachfejes/hack_western_voice_workshop#readme",
+  "dependencies": {
+    "actions-on-google": "^2.5.0",
+    "firebase-admin": "^5.13.1",
+    "firebase-functions": "^2.0.2",
+    "dialogflow": "^0.8.0",
+    "dialogflow-fulfillment": "^0.6.1"
+  }
+}
