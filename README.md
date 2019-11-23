@@ -40,6 +40,6 @@ Full details on this simple app pattern can be found in the [Google Dialogflow d
 
 ### Awesome Resources
 
-[Anything you need to know about the Actions on Google response types, code samples, and other great stuff. Seriously. This is the most helpful link on this list for a hacker.](https://developers.google.com/assistant/conversational/responses#suggestion_chips)
-[Working with conversations means you will likely need to use Regular Expressions. This site is your best friend for debugging RegEx.](https://regexr.com/)
-[Working on front-end visuals and not sure what your browser supports CSS-wise? Got the IE11 blues? This tool will tell you what you can use, and where.](https://caniuse.com/)
+* [Anything you need to know about the Actions on Google response types, code samples, and other great stuff. Seriously. This is the most helpful link on this list for a hacker.](https://developers.google.com/assistant/conversational/responses#suggestion_chips)
+* [Working with conversations means you will likely need to use Regular Expressions. This site is your best friend for debugging RegEx.](https://regexr.com/)
+* [Working on front-end visuals and not sure what your browser supports CSS-wise? Got the IE11 blues? This tool will tell you what you can use, and where.](https://caniuse.com/)

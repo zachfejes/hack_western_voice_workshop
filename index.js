@@ -51,9 +51,10 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     let conv = agent.conv();
     let text = "", speech = "";
 
-    text = "I'm sorry but I didn't understand. My capabilities are kind of limited right now, but you can ask me what my favorite color, or car is. Alternately, if you want to improve my functionality, feel free to go make a pull request to my repo on GitHub!  \n\nOr you can join RBC and work with Zach and get paid to make really powerful voice apps.";
-    speech = "<p><s>I'm sorry but I didn't understand.</s><s>My capabilities are kind of limited right now, but you can ask me what my favorite color, or car is.</s><s>Alternately, if you want to improve my functionality, feel free to go make a pull request to my repo on GitHub!</s></p><p><s>Or you can join RBC and work with Zach and get paid to make really powerful voice apps.</s></p>";
+    text = "I'm sorry but I didn't understand. My capabilities are kind of limited right now, but you can ask me what my favorite color, or car is. Alternately, if you want to improve my functionality, feel free to go make a pull request to my repo on GitHub!  \n\nOr you can join RBC, work with the Voice Lab, and get paid to make really powerful voice apps.";
+    speech = "<p><s>I'm sorry but I didn't understand.</s><s>My capabilities are kind of limited right now, but you can ask me what my favorite color, or car is.</s><s>Alternately, if you want to improve my functionality, feel free to go make a pull request to my repo on GitHub!</s></p><p><s>Or you can join RBC, work with the Voice Lab, and get paid to make really powerful voice apps.</s></p>";
 
+    conv.ask(new SimpleResponse({ text, speech: wrapSSML(speech) }));
     conv.ask(new LinkOutSuggestion({ name: "Improve Me", url: "https://github.com/zachfejes/hack_western_voice_workshop/tree/develop" }));
     conv.ask(new Suggestions([ "Favorite Color", "Favorite Vehicle" ]));
 
