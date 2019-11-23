@@ -36,3 +36,10 @@ Full details on this simple app pattern can be found in the [Google Dialogflow d
 ### Known Limitations
 
 * When using the free tier of Dialogflow, any fulfillment service you build in the inline-fulfillment system can not leverage external APIs. This can be mitigated by instead hosting your fulfillment service on a seperate service, and have Dialogflow connect to it via Webhooks.
+* Google Dialogflow and Actions on Google both support only a subset of the full SSML markup. You can see [Google's documentation on the supported tags here](https://developers.google.com/assistant/actions/reference/ssml), or the [full SSML documentation by the W3 consortum here](https://www.w3.org/TR/speech-synthesis11/).
+
+### Awesome Resources
+
+[Anything you need to know about the Actions on Google response types, code samples, and other great stuff. Seriously. This is the most helpful link on this list for a hacker.](https://developers.google.com/assistant/conversational/responses#suggestion_chips)
+[Working with conversations means you will likely need to use Regular Expressions. This site is your best friend for debugging RegEx.](https://regexr.com/)
+[Working on front-end visuals and not sure what your browser supports CSS-wise? Got the IE11 blues? This tool will tell you what you can use, and where.](https://caniuse.com/)

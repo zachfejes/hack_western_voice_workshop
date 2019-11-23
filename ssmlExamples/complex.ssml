@@ -9,12 +9,10 @@
             <s>By applying the correct, say as, tag, I could answer in the most appropraite way.</s>
             <s>For example:</s>
             <s>The answer is 3.</s>
-            <s>The answer is 3.</s>
-            <s>The answer is 3.</s>
-            <s>The answer is 3.</s>
+            <s>The answer is <say-as interpret-as="ordinal">3</say-as>.</s>
         </p>
 
         <p>
-            <s>And now my voice is back to the default speed and pitch.</s>
+            <s>By marking up the appropriate interpretation of variables, you can ensure that the speech comes across as less robotic.</s>
         </p>
 </speak>

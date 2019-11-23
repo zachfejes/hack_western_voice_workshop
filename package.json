@@ -22,10 +22,10 @@
   },
   "homepage": "https://github.com/zachfejes/hack_western_voice_workshop#readme",
   "dependencies": {
-    "actions-on-google": "^2.2.0",
+    "actions-on-google": "^2.5.0",
     "firebase-admin": "^5.13.1",
     "firebase-functions": "^2.0.2",
-    "dialogflow": "^0.6.0",
-    "dialogflow-fulfillment": "^0.5.0"
+    "dialogflow": "^0.8.0",
+    "dialogflow-fulfillment": "^0.6.1"
   }
 }
